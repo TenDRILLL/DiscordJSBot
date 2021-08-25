@@ -1,4 +1,4 @@
-class Say extends require("../../commandClass"){
+class Say extends require("../../automation/commandClass"){
     constructor() {
         super(
             "say",

@@ -5,7 +5,7 @@ module.exports.get = () => {
         if(!f.endsWith(".js")){
             readdirSync("./cmd/" + f).forEach(ff => {
                 if(ff.endsWith(".js")){
-                    let js = require("./cmd/" + f + "/" + ff);
+                    let js = require("../cmd/" + f + "/" + ff);
                     if(js instanceof require("./commandClass")){
                         commands.set(js.getName(), js);
                     } else {

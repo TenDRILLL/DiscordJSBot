@@ -1,4 +1,4 @@
-class Help extends require("../../commandClass"){
+class Help extends require("../../automation/commandClass"){
     constructor() {
         super(
             "help",
